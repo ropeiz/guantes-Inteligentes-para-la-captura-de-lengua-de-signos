@@ -12,14 +12,13 @@ La comunicación entre personas sordas y oyentes se ve limitada por la dependenc
 
 1. **Diseño y construcción del prototipo**  
    — Integración ergonómica de microcontrolador, IMU y sensores resistivos.  
-2. **Visualización 3D en Unity**  
+2. **Transmisión de datos vía Bluetooth**  
+   — Envío de paquetes (giroscopio + flexión) con detección y corrección de errores.  
+3. **Visualización 3D en Unity**  
    — Script de procesamiento de datos y representación de manos virtuales.  
-3. **Transmisión de datos vía Bluetooth**  
-   — Envío de paquetes (giroscopio + flexión) a 60 FPS con detección y corrección de errores.  
 4. **Exportación y reproducción**  
    — Script de exportación a CSV y script de reproducción de movimiento desde CSV.  
-5. **Lectura de sensores con Arduino**  
-   — Código de adquisición y envío de datos vía HC‑05.
+
 
 ---
 
