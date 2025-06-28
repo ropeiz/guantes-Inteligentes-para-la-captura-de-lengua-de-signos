@@ -23,25 +23,27 @@ La comunicación entre personas sordas y oyentes se ve limitada por la dependenc
 ---
 
 ## 📂 Estructura del Repositorio
+
+```text
 /
-├── Informe_final.pdf # Informe final del TFG
-├── Presentacion /
-| ├──Presentacion.pptx # Presentación PowerPoint
-| ├──Presentacion.pdf # Presentación PDF
+├── Informe_final.pdf        # Informe final del TFG
+├── Presentacion/
+│   ├── Presentacion.pptx    # Presentación PowerPoint
+│   └── Presentacion.pdf     # Presentación PDF
 ├── Scripts_Unity/
-│ ├── DataProcessor.cs # Procesamiento y traducción de movimiento
-│ ├── HandDataExporter.cs # Exportación de datos a CSV
-│ └── HandDataPlayer.cs # Reproducción de movimiento desde CSV
+│   ├── DataProcessor.cs     # Procesamiento y traducción de movimiento
+│   ├── HandDataExporter.cs  # Exportación de datos a CSV
+│   └── HandDataPlayer.cs    # Reproducción de movimiento desde CSV
 ├── Arduino_code/
-│ └── SendData.ino # Código Arduino (sensores + Bluetooth)
+│   └── SendData.ino         # Código Arduino (sensores + Bluetooth)
 ├── CSV_example/
-│ └── Example_CSV.csv # Archivo CSV de ejemplo
-├── Videos/ # Carpeta con vídeos de funcionamiento
-│ └── Movimientos.mp4 # Tipos de movimientos que puede hacer el guante
-│ └── Gracias.mp4 # Gesto "Gracias"
-│ ├── De_nada.mp4 # Gesto "De nada"
-│ └── Si_o_no.mp4 # Gesto "Si o no"
-├── Informes_seguimiento /
-├── Informe_inicial.pdf
-├── Primer_informe_seguiment.pdf
-└── Segon_informe_seguiment.pdf
+│   └── Example_CSV.csv      # Archivo CSV de ejemplo
+├── Videos/                  # Carpeta con vídeos de funcionamiento
+│   ├── Movimientos.mp4      # Tipos de movimientos que puede hacer el guante
+│   ├── Gracias.mp4          # Gesto "Gracias"
+│   ├── De_nada.mp4          # Gesto "De nada"
+│   └── Si_o_no.mp4          # Gesto "Sí o no"
+└── Informes_seguimiento/
+    ├── Informe_inicial.pdf
+    ├── Primer_informe_seguiment.pdf
+    └── Segon_informe_seguiment.pdf
