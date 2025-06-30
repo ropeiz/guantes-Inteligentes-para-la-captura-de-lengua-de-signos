@@ -28,7 +28,6 @@ La comunicación entre personas sordas y oyentes se ve limitada por la dependenc
 /
 ├── Informe_final.pdf        # Informe final del TFG
 ├── Presentacion/
-│   ├── Presentacion.pptx    # Presentación PowerPoint
 │   └── Presentacion.pdf     # Presentación PDF
 ├── Scripts_Unity/
 │   ├── DataProcessor.cs     # Procesamiento y traducción de movimiento
